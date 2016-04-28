@@ -1,0 +1,12 @@
+Source: ros-kinetic-desktop
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-desktop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-common-tutorials, ros-kinetic-geometry-tutorials, ros-kinetic-robot, ros-kinetic-ros-tutorials, ros-kinetic-roslint, ros-kinetic-urdf-tutorial, ros-kinetic-visualization-tutorials, ros-kinetic-viz
+Description: A metapackage to aggregate several packages.
