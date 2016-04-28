@@ -1,0 +1,12 @@
+Source: ros-kinetic-simulators
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-simulators
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-gazebo-ros-pkgs, ros-kinetic-robot, ros-kinetic-rqt-common-plugins, ros-kinetic-rqt-robot-plugins, ros-kinetic-stage-ros
+Description: A metapackage to aggregate several packages.
