@@ -1,3 +1,34 @@
+## metapackages (kinetic) - 1.3.0-0
+
+The packages in the `metapackages` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release -r kinetic -t kinetic metapackages` on `Thu, 28 Apr 2016 21:59:16 -0000`
+
+These packages were released:
+- `desktop`
+- `desktop_full`
+- `perception`
+- `robot`
+- `ros_base`
+- `ros_core`
+- `simulators`
+- `viz`
+
+Version of package(s) in repository `metapackages`:
+
+- upstream repository: https://github.com/ros/metapackages.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.3.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.21`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.4`
+- rosdistro version: `0.4.7`
+- vcstools version: `0.1.38`
+
+
 ## metapackages (jade) - 1.2.0-0
 
 The packages in the `metapackages` repository were released into the `jade` distro by running `/usr/bin/bloom-release -r jade -t jade metapackages` on `Wed, 20 May 2015 18:16:11 -0000`
