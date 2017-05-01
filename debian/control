@@ -1,0 +1,12 @@
+Source: ros-lunar-desktop
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-lunar-desktop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-common-tutorials, ros-lunar-geometry-tutorials, ros-lunar-robot, ros-lunar-ros-tutorials, ros-lunar-roslint, ros-lunar-urdf-tutorial, ros-lunar-visualization-tutorials, ros-lunar-viz
+Description: A metapackage to aggregate several packages.
