@@ -1,0 +1,12 @@
+Source: ros-lunar-perception
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-lunar-perception
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-image-common, ros-lunar-image-pipeline, ros-lunar-image-transport-plugins, ros-lunar-laser-pipeline, ros-lunar-perception-pcl, ros-lunar-ros-base, ros-lunar-vision-opencv
+Description: A metapackage to aggregate several packages.
