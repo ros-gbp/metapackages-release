@@ -1,3 +1,34 @@
+## metapackages (lunar) - 1.3.1-0
+
+The packages in the `metapackages` repository were released into the `lunar` distro by running `/usr/bin/bloom-release -r lunar -t lunar metapackages` on `Mon, 08 May 2017 20:01:22 -0000`
+
+These packages were released:
+- `desktop`
+- `desktop_full`
+- `perception`
+- `robot`
+- `ros_base`
+- `ros_core`
+- `simulators`
+- `viz`
+
+Version of package(s) in repository `metapackages`:
+
+- upstream repository: https://github.com/ros/metapackages.git
+- release repository: https://github.com/ros-gbp/metapackages-release.git
+- rosdistro version: `1.3.0-0`
+- old version: `1.3.0-0`
+- new version: `1.3.1-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.26`
+- catkin_pkg version: `0.3.1`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.6.2`
+- vcstools version: `0.1.39`
+
+
 ## metapackages (lunar) - 1.3.0-0
 
 The packages in the `metapackages` repository were released into the `lunar` distro by running `/usr/bin/bloom-release -r lunar -t lunar metapackages` on `Mon, 01 May 2017 05:06:45 -0000`
