@@ -1,0 +1,12 @@
+Source: ros-lunar-ros-base
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-lunar-ros-base
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-actionlib, ros-lunar-bond-core, ros-lunar-class-loader, ros-lunar-dynamic-reconfigure, ros-lunar-nodelet-core, ros-lunar-pluginlib, ros-lunar-ros-core
+Description: A metapackage which extends ros_core and includes other basic non-robot tools like actionlib, dynamic reconfigure, nodelets, and pluginlib.
