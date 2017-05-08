@@ -1,0 +1,12 @@
+Source: ros-indigo-simulators
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-simulators
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-gazebo-ros-pkgs, ros-indigo-robot, ros-indigo-rqt-common-plugins, ros-indigo-rqt-robot-plugins, ros-indigo-stage-ros
+Description: A metapackage to aggregate several packages.
