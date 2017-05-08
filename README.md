@@ -1,3 +1,34 @@
+## metapackages (indigo) - 1.1.5-0
+
+The packages in the `metapackages` repository were released into the `indigo` distro by running `/usr/bin/bloom-release -r indigo -t indigo metapackages` on `Mon, 08 May 2017 20:46:06 -0000`
+
+These packages were released:
+- `desktop`
+- `desktop_full`
+- `perception`
+- `robot`
+- `ros_base`
+- `ros_core`
+- `simulators`
+- `viz`
+
+Version of package(s) in repository `metapackages`:
+
+- upstream repository: https://github.com/ros/metapackages.git
+- release repository: https://github.com/ros-gbp/metapackages-release.git
+- rosdistro version: `1.1.4-0`
+- old version: `1.1.4-0`
+- new version: `1.1.5-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.26`
+- catkin_pkg version: `0.3.1`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.6.2`
+- vcstools version: `0.1.39`
+
+
 ## metapackages (jade) - 1.2.1-0
 
 The packages in the `metapackages` repository were released into the `jade` distro by running `/usr/bin/bloom-release -r jade -t jade metapackages` on `Mon, 08 May 2017 20:39:14 -0000`
