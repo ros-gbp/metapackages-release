@@ -1,0 +1,12 @@
+Source: ros-kinetic-desktop-full
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-desktop-full
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-desktop, ros-kinetic-perception, ros-kinetic-simulators, ros-kinetic-urdf-tutorial
+Description: A metapackage to aggregate several packages.
