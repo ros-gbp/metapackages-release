@@ -1,0 +1,12 @@
+Source: ros-jade-desktop
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jade-desktop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-common-tutorials, ros-jade-geometry-tutorials, ros-jade-robot, ros-jade-ros-tutorials, ros-jade-roslint, ros-jade-visualization-tutorials, ros-jade-viz
+Description: A metapackage to aggregate several packages.
