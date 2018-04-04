@@ -1,0 +1,13 @@
+Source: ros-indigo-robot
+Section: misc
+Priority: extra
+Maintainer: Mikael Arguedas <mikael@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-robot
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-control-msgs, ros-indigo-diagnostics, ros-indigo-executive-smach, ros-indigo-filters, ros-indigo-geometry, ros-indigo-robot-model, ros-indigo-robot-state-publisher, ros-indigo-ros-base, ros-indigo-xacro
+Description: A metapackage which extends ros_base and includes ROS libaries for any robot hardware.
+ It may not contain any GUI dependencies.
