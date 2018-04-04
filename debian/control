@@ -1,0 +1,12 @@
+Source: ros-indigo-ros-core
+Section: misc
+Priority: extra
+Maintainer: Mikael Arguedas <mikael@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-ros-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-catkin, ros-indigo-cmake-modules, ros-indigo-common-msgs, ros-indigo-gencpp, ros-indigo-genlisp, ros-indigo-genmsg, ros-indigo-genpy, ros-indigo-message-generation, ros-indigo-message-runtime, ros-indigo-ros, ros-indigo-ros-comm, ros-indigo-rosbag-migration-rule, ros-indigo-rosconsole-bridge, ros-indigo-roscpp-core, ros-indigo-rosgraph-msgs, ros-indigo-roslisp, ros-indigo-rospack, ros-indigo-std-msgs, ros-indigo-std-srvs
+Description: A metapackage to aggregate the packages required to use publish / subscribe, services, launch files, and other core ROS concepts.
