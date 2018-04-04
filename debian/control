@@ -1,0 +1,12 @@
+Source: ros-indigo-perception
+Section: misc
+Priority: extra
+Maintainer: Mikael Arguedas <mikael@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-perception
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-image-common, ros-indigo-image-pipeline, ros-indigo-image-transport-plugins, ros-indigo-laser-pipeline, ros-indigo-perception-pcl, ros-indigo-ros-base, ros-indigo-vision-opencv
+Description: A metapackage to aggregate several packages.
