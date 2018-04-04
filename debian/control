@@ -1,0 +1,12 @@
+Source: ros-indigo-viz
+Section: misc
+Priority: extra
+Maintainer: Mikael Arguedas <mikael@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-viz
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-ros-base, ros-indigo-rqt-common-plugins, ros-indigo-rqt-robot-plugins, ros-indigo-rviz
+Description: A metapackage to aggregate several packages.
