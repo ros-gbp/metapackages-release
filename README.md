@@ -1,3 +1,34 @@
+## metapackages (indigo) - 1.1.6-0
+
+The packages in the `metapackages` repository were released into the `indigo` distro by running `/usr/bin/bloom-release metapackages -t indigo -r indigo` on `Wed, 04 Apr 2018 12:43:34 -0000`
+
+These packages were released:
+- `desktop`
+- `desktop_full`
+- `perception`
+- `robot`
+- `ros_base`
+- `ros_core`
+- `simulators`
+- `viz`
+
+Version of package(s) in repository `metapackages`:
+
+- upstream repository: https://github.com/ros/metapackages.git
+- release repository: https://github.com/ros-gbp/metapackages-release.git
+- rosdistro version: `1.1.5-0`
+- old version: `1.1.5-0`
+- new version: `1.1.6-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.4`
+- catkin_pkg version: `0.4.1`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.8`
+- vcstools version: `0.1.40`
+
+
 ## metapackages (kinetic) - 1.3.2-0
 
 The packages in the `metapackages` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release metapackages -t kinetic -r kinetic` on `Wed, 04 Apr 2018 12:30:34 -0000`
