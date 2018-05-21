@@ -1,3 +1,34 @@
+## metapackages (melodic) - 1.4.1-0
+
+The packages in the `metapackages` repository were released into the `melodic` distro by running `/usr/bin/bloom-release metapackages -r melodic -t melodic` on `Mon, 21 May 2018 17:24:47 -0000`
+
+These packages were released:
+- `desktop`
+- `desktop_full`
+- `perception`
+- `robot`
+- `ros_base`
+- `ros_core`
+- `simulators`
+- `viz`
+
+Version of package(s) in repository `metapackages`:
+
+- upstream repository: https://github.com/ros/metapackages.git
+- release repository: https://github.com/ros-gbp/metapackages-release.git
+- rosdistro version: `1.4.0-0`
+- old version: `1.4.0-0`
+- new version: `1.4.1-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.4`
+- catkin_pkg version: `0.4.2`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.8`
+- vcstools version: `0.1.40`
+
+
 ## metapackages (melodic) - 1.4.0-0
 
 The packages in the `metapackages` repository were released into the `melodic` distro by running `/usr/bin/bloom-release metapackages -r melodic -t melodic` on `Thu, 10 May 2018 17:45:17 -0000`
