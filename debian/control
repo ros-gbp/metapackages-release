@@ -1,0 +1,12 @@
+Source: ros-melodic-ros-core
+Section: misc
+Priority: extra
+Maintainer: Mikael Arguedas <mikael@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-ros-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-catkin, ros-melodic-class-loader, ros-melodic-cmake-modules, ros-melodic-common-msgs, ros-melodic-gencpp, ros-melodic-geneus, ros-melodic-genlisp, ros-melodic-genmsg, ros-melodic-gennodejs, ros-melodic-genpy, ros-melodic-message-generation, ros-melodic-message-runtime, ros-melodic-pluginlib, ros-melodic-ros, ros-melodic-ros-comm, ros-melodic-rosbag-migration-rule, ros-melodic-rosconsole, ros-melodic-rosconsole-bridge, ros-melodic-roscpp-core, ros-melodic-rosgraph-msgs, ros-melodic-roslisp, ros-melodic-rospack, ros-melodic-std-msgs, ros-melodic-std-srvs
+Description: A metapackage to aggregate the packages required to use publish / subscribe, services, launch files, and other core ROS concepts.
