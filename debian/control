@@ -1,0 +1,13 @@
+Source: ros-melodic-robot
+Section: misc
+Priority: extra
+Maintainer: Mikael Arguedas <mikael@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-robot
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-control-msgs, ros-melodic-diagnostics, ros-melodic-executive-smach, ros-melodic-filters, ros-melodic-geometry, ros-melodic-joint-state-publisher, ros-melodic-kdl-parser, ros-melodic-kdl-parser-py, ros-melodic-robot-state-publisher, ros-melodic-ros-base, ros-melodic-urdf, ros-melodic-urdf-parser-plugin, ros-melodic-xacro
+Description: A metapackage which extends ros_base and includes ROS libaries for any robot hardware.
+ It may not contain any GUI dependencies.
