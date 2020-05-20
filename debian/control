@@ -1,0 +1,12 @@
+Source: ros-noetic-desktop-full
+Section: misc
+Priority: optional
+Maintainer: Mikael Arguedas <mikael@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-desktop-full
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-desktop, ros-noetic-perception, ros-noetic-simulators, ros-noetic-urdf-sim-tutorial
+Description: A metapackage to aggregate several packages.
