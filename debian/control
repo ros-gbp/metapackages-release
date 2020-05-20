@@ -1,0 +1,12 @@
+Source: ros-noetic-desktop
+Section: misc
+Priority: optional
+Maintainer: Mikael Arguedas <mikael@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-desktop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-angles, ros-noetic-common-tutorials, ros-noetic-geometry-tutorials, ros-noetic-joint-state-publisher-gui, ros-noetic-robot, ros-noetic-ros-tutorials, ros-noetic-roslint, ros-noetic-urdf-tutorial, ros-noetic-visualization-tutorials, ros-noetic-viz
+Description: A metapackage to aggregate several packages.
