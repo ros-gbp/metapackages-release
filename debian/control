@@ -1,0 +1,12 @@
+Source: ros-noetic-simulators
+Section: misc
+Priority: optional
+Maintainer: Mikael Arguedas <mikael@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-simulators
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-gazebo-ros-pkgs, ros-noetic-robot, ros-noetic-rqt-common-plugins, ros-noetic-rqt-robot-plugins, ros-noetic-stage-ros
+Description: A metapackage to aggregate several packages.
