@@ -1,3 +1,34 @@
+## metapackages (noetic) - 1.5.0-1
+
+The packages in the `metapackages` repository were released into the `noetic` distro by running `/usr/bin/bloom-release -r noetic -t noetic metapackages` on `Wed, 20 May 2020 01:59:27 -0000`
+
+These packages were released:
+- `desktop`
+- `desktop_full`
+- `perception`
+- `robot`
+- `ros_base`
+- `ros_core`
+- `simulators`
+- `viz`
+
+Version of package(s) in repository `metapackages`:
+
+- upstream repository: https://github.com/ros/metapackages.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.5.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.7`
+- catkin_pkg version: `0.4.18`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.1`
+- vcstools version: `0.1.42`
+
+
 ## metapackages (melodic) - 1.4.1-0
 
 The packages in the `metapackages` repository were released into the `melodic` distro by running `/usr/bin/bloom-release metapackages -r melodic -t melodic` on `Mon, 21 May 2018 17:24:47 -0000`
